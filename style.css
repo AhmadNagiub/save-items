@@ -1,0 +1,59 @@
+*
+{
+    box-sizing: border-box;
+}
+body
+{
+    font-family: tahoma;
+}
+
+.parent
+{
+    background-color: #EEE;
+    width: 60%;
+    margin: 20px auto;
+    text-align: center;
+    padding: 10px;
+}
+.parent input
+{
+    width: 90%;
+    padding: 3px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    margin: 10px 0px;
+}
+.parent input:focus
+{
+    outline: none;
+    box-shadow: -5px -5px 30px rgb(95, 83, 83);
+}
+
+button
+{
+    border: none;
+    border-radius: 5px;
+    background-color: #099688;
+    color: white;
+    padding: 5px;
+    margin: 17px 0px;
+    cursor: pointer;
+}
+
+.parent .results
+{
+    background-color: #FFF;
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px dashed #EEE;
+}
+.parent .results span span
+{
+    font-weight: 700;
+    color: #099688;
+}
+.parent .results span .keys
+{
+    display: block;
+}
